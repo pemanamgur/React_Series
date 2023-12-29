@@ -1,0 +1,70 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+ 
+}
+body{
+  background-color: #212121;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.btn{
+  color : white;
+  background-color: rgb(141, 14, 204);
+  margin: auto 4px;
+}
+.btn:hover{
+  color : rgb(255, 255, 255);
+  background-color: rgb(60, 7, 86);
+  margin: auto 4px;
+  transition: 2s;
+}
+
+h2{
+  box-shadow: 0px 0px 4px rgb(128, 126, 126);
+  color: rgb(0, 0, 0);
+  border-radius: 12px;
+}
+h2:hover{
+   font-size: 1.6rem;
+   background-color: rgb(180, 178, 178);
+   transition: 1s;
+   box-shadow: 0px 0px 4px rgb(80, 8, 114);
+}
